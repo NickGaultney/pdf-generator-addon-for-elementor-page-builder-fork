@@ -36,7 +36,15 @@
       var rtw_post_url = $(this).data("post_url");
       var rtw_pdf_cache = $(this).data("pdf_cache");
       var rtw_pdf_class = $(this).data("pdf_class");
-			var rtw_pdf_id = $(this).data("pdf_id");
+      var rtw_pdf_id = $(this).data("pdf_id");
+
+      // Extract results_id from post_url if it exists
+      var results_id = '';
+      var url = new URL(rtw_post_url);
+      if (url.searchParams.has('results_id')) {
+        results_id = url.searchParams.get('results_id');
+      }
+
       $.post(
         rtw_post_url,
         {
@@ -44,6 +52,7 @@
           "rtw_pdf_cache": rtw_pdf_cache,
           "rtw_pdf_class": rtw_pdf_class,
           "rtw_pdf_id": rtw_pdf_id,
+          "results_id": results_id,
           security_check : rtw_pgaepb_obj.rtw_pgaepb_nonce
         },
         function (response) {
