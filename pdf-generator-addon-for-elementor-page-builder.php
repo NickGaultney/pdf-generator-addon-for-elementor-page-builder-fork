@@ -16,7 +16,7 @@
  * Plugin Name:       PDF Generator Addon for Elementor Page Builder
  * Plugin URI:        https://github.com/NickGaultney/pdf-generator-addon-for-elementor-page-builder-fork.git
  * GitHub Plugin URI: https://github.com/NickGaultney/pdf-generator-addon-for-elementor-page-builder-fork.git
- * Primary Branch:    master
+ * Primary Branch:    main
  * Description:       An Elementor addon that allows you to easily generate customizable PDFs from any Elementor page or post. With one-click conversion, dynamic content support, and customizable templates, you can create professional PDFs for download, sharing, or offline use directly from your WordPress site.
  * Version:           2.0.1
  * Author:            RedefiningTheWeb
