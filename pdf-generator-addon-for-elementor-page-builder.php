@@ -18,7 +18,7 @@
  * GitHub Plugin URI: https://github.com/NickGaultney/pdf-generator-addon-for-elementor-page-builder-fork.git
  * Primary Branch:    main
  * Description:       A fork of An Elementor addon that allows you to easily generate customizable PDFs from any Elementor page or post. With one-click conversion, dynamic content support, and customizable templates, you can create professional PDFs for download, sharing, or offline use directly from your WordPress site.
- * Version:           2.0.2
+ * Version:           2.0.2.1
  * Author:            Nick Gaultney
  * Author URI:        https://gauwebsolutions.com/
  * License:           GPL-2.0+
@@ -59,7 +59,7 @@ if( function_exists('is_multisite') && is_multisite() )
 		 * Start at version 1.0.0 and use SemVer - https://semver.org
 		 * Rename this for your plugin and update it as you release new versions.
 		 */
-		define( 'RTW_PGAEPA_NAME_VERSION', '2.0.2' );
+		define( 'RTW_PGAEPA_NAME_VERSION', '2.0.2.1' );
 
 
 		/**
@@ -145,7 +145,7 @@ else{
 		 * Start at version 1.0.0 and use SemVer - https://semver.org
 		 * Rename this for your plugin and update it as you release new versions.
 		 */
-		define( 'RTW_PGAEPA_NAME_VERSION', '2.0.2' );
+		define( 'RTW_PGAEPA_NAME_VERSION', '2.0.2.1' );
 
 
 		/**

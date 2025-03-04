@@ -78,24 +78,6 @@ else {
 settings_errors();
 ?>
 
-<div class="rtw_sb_popup">
-	<div class="rtw_sb_card">
-		<div class="rtw_sb_card_label">
-			<label><strong>Cyber Week Sale</strong></label>
-		</div>
-		<div class="rtw_sb_card_body">
-			<div class="rtw_sb_close_popup">
-				<div class="rtw_sb_close_icon"></div>
-			</div>
-			<h2>Get PRO @ 50% Off</h2>
-			<a class="rtw_sb_link" href="<?php echo esc_url('https://codecanyon.net/item/pdfmentor-wordpress-pdf-generator-for-elementor-pro/28376760'); ?>" target="_blank"> <button id="rtw_sb_banner_button">Buy Now</button></a>
-			<p class="rtw_popper"><img src="<?php echo esc_url(RTW_PGAEPB_URL.'/admin/assets/party-popper.png'); ?>" alt="offer popper image"></p>
-			<p class="rtw_sb_price">Just in <span><strike>$69</strike></span><span>$34</span></p>
-			<p class="rtw_sb_bottom_text">* Hurry up limited time offer <span class="rtw_sb_date"></span></p>
-		</div>
-	</div>
-</div>
-
 <div class="wrap rtw_pgaepb">
 	<h1><?php esc_html('PDF Generator Addon for Elementor','pdf-generator-addon-for-elementor-page-builder');?></h1>
 	<nav class="nav-tab-wrapper">
