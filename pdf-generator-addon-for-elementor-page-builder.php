@@ -8,19 +8,19 @@
  * registers the activation and deactivation functions, and defines a function
  * that starts the plugin.
  *
- * @link              http://redefiningtheweb.com/
+ * @link              https://redefiningtheweb.com/
  * @since             1.0.0
  * @package           Pdf_Generator_Addon_For_Elementor_Page_Builder
  *
  * @wordpress-plugin
- * Plugin Name:       PDF Generator Addon for Elementor Page Builder
+ * Plugin Name:       PDF Generator Addon for Elementor Page Builder Fork
  * Plugin URI:        https://github.com/NickGaultney/pdf-generator-addon-for-elementor-page-builder-fork.git
  * GitHub Plugin URI: https://github.com/NickGaultney/pdf-generator-addon-for-elementor-page-builder-fork.git
  * Primary Branch:    main
- * Description:       An Elementor addon that allows you to easily generate customizable PDFs from any Elementor page or post. With one-click conversion, dynamic content support, and customizable templates, you can create professional PDFs for download, sharing, or offline use directly from your WordPress site.
+ * Description:       A fork of An Elementor addon that allows you to easily generate customizable PDFs from any Elementor page or post. With one-click conversion, dynamic content support, and customizable templates, you can create professional PDFs for download, sharing, or offline use directly from your WordPress site.
  * Version:           2.0.2
- * Author:            RedefiningTheWeb
- * Author URI:        http://redefiningtheweb.com/
+ * Author:            Nick Gaultney
+ * Author URI:        https://gauwebsolutions.com/
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       pdf-generator-addon-for-elementor-page-builder
