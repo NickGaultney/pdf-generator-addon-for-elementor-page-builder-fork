@@ -34,7 +34,7 @@
       $(".rtwwpge_pdf_gif").show();
       var rtw_post_id = $(this).data("post_id");
       var rtw_post_url = $(this).data("post_url");
-      //var rtw_pdf_cache = $(this).data("pdf_cache");        Removed this line to prevent any cacheing
+      var rtw_pdf_cache = $(this).data("pdf_cache");
       var rtw_pdf_class = $(this).data("pdf_class");
       var rtw_pdf_id = $(this).data("pdf_id");
 
@@ -49,7 +49,7 @@
         rtw_post_url,
         {
           "rtw_pgaepb_id": rtw_post_id,
-          //"rtw_pdf_cache": rtw_pdf_cache,                   Removed this line to prevent any cacheing
+          "rtw_pdf_cache": rtw_pdf_cache,
           "rtw_pdf_class": rtw_pdf_class,
           "rtw_pdf_id": rtw_pdf_id,
           "results_id": results_id,

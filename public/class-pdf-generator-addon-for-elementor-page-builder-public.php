@@ -217,7 +217,8 @@ class Pdf_Generator_Addon_For_Elementor_Page_Builder_Public {
 			$rtw_file_name = $post->ID. '.pdf';
 		}
 
-		$rtw_is_pdf_cached = !file_exists($rtw_file_path) ? false : true;
+		//$rtw_is_pdf_cached = !file_exists($rtw_file_path) ? false : true;
+		$rtw_is_pdf_cached = false;		// Never used cached file
 
 		$rtw_woo_cart = false;
 		if ( is_plugin_active('woocommerce/woocommerce.php') && is_cart() ) {
